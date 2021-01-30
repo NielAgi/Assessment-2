@@ -1,12 +1,11 @@
-#include"Sensor.hpp"
+#include"sensor.hpp"
 #include<iostream>
-#include<conio.h>
 
 using namespace std;
 
 int main(int argc, char *argv[]){
 
-  int counter; 
+	int counter; 
     printf("Program Name Is: %s",argv[0]); 
     if(argc==1) 
         printf("\nNo Extra Command Line Argument Passed Other Than Program Name"); 
@@ -19,7 +18,7 @@ int main(int argc, char *argv[]){
     }
 
 	if (argc < 2) {
-        	cerr << "\nUsage: " << argv[0] << " <sampleTime> <precisionBits> <numberOfSimulatedSamples>" << std::endl;
+        	cerr << "Usage: " << argv[0] << " <sampleTime> <precisionBits> <numberOfSimulatedSamples>" << std::endl;
     	}
 	else{
 		cout << "You passed the following arguments: ";
@@ -27,6 +26,8 @@ int main(int argc, char *argv[]){
 			cout << argv[argcount] << "\t";
 		}
 		cout << endl;
+
+    
 
 		/* TODO: Process the first argument as sampleTime; second argument as precisionBits; and third argument as the number of samples to generate */
 	}
@@ -39,6 +40,7 @@ int main(int argc, char *argv[]){
 	/* TODO: Declare the person objects here with different weights and ages */
 	/* TODO: Read the sensed samples with timestamps and process sample information as directed in the Project info */
 	/* TODO: Store analysed criticality info of the persons/samples in analysis.txt file */
+
 
 	return 0;
 }

@@ -1,4 +1,4 @@
-#include"Sensor.hpp"
+#include"sensor.hpp"
 #include<iostream>
 #include<time.h>
 #include<unistd.h>
