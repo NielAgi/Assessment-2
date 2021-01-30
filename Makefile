@@ -1,7 +1,7 @@
 program: main.cpp Sensor.o
 	g++ -o $@ main.cpp Sensor.o
 
-Sensor.o: sensor.cpp
+Sensor.o: Sensor.cpp
 	g++ -o $@ -c Sensor.cpp
 
 clean:

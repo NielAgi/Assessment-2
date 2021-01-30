@@ -1,4 +1,4 @@
-#include"sensor.hpp"
+#include"Sensor.hpp"
 #include<iostream>
 
 using namespace std;
@@ -27,8 +27,6 @@ int main(int argc, char *argv[]){
 		}
 		cout << endl;
 
-    
-
 		/* TODO: Process the first argument as sampleTime; second argument as precisionBits; and third argument as the number of samples to generate */
 	}
 
@@ -40,7 +38,6 @@ int main(int argc, char *argv[]){
 	/* TODO: Declare the person objects here with different weights and ages */
 	/* TODO: Read the sensed samples with timestamps and process sample information as directed in the Project info */
 	/* TODO: Store analysed criticality info of the persons/samples in analysis.txt file */
-
 
 	return 0;
 }
