@@ -1,5 +1,4 @@
 #include"sensor.hpp"
-#include"sensor.cpp"
 #include<iostream>
 
 using namespace std;
@@ -16,10 +15,10 @@ int main(int argc, char *argv[]){
         printf("\n----Following Are The Command Line Arguments Passed----"); 
         for(counter=0;counter<argc;counter++) 
             printf("\nargv[%d]: %s",counter,argv[counter]); 
-    } 
+    }
 
 	if (argc < 2) {
-        	cerr << "n\Usage: " << argv[0] << " <sampleTime> <precisionBits> <numberOfSimulatedSamples>" << std::endl;
+        	cerr << "\nUsage: " << argv[0] << " <sampleTime> <precisionBits> <numberOfSimulatedSamples>" << std::endl;
     	}
 	else{
 		cout << "You passed the following arguments: ";
